@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* .state1 {
+  background-color: bisque;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.state2 {
+  background-color: black;
+  color: bisque;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.greetingsForm {
+  margin: 20px 0;
+  background-color: coral;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  row-gap: 10px;
+  width: fit-content;
+  font-weight: 600;
+}
+.btn {
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  padding: 4px 10px;
+  font-weight: bold;
+}
+.greeting {
+  background-color: red;
+  color: antiquewhite;
+  width: fit-content;
+  padding: 10px 30px;
+  margin: 0 auto;
+} */
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+@media screen and (min-width: 440px) {
+  .mainGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mainGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
