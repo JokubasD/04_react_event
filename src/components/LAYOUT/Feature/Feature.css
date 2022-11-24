@@ -1,0 +1,23 @@
+.feature {
+  padding: 40px;
+  text-align: center;
+}
+@media screen and (min-width: 440px) {
+  .feature {
+    grid-column: span 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .feature1 {
+    order: 1;
+  }
+  .feature3 {
+    order: 2;
+  }
+  .feature2 {
+    order: 3;
+  }
+  .feature {
+    padding: 100px;
+  }
+}

@@ -1,0 +1,17 @@
+.content {
+  background-color: #eaedfe;
+  padding: 80px;
+  text-align: center;
+}
+@media screen and (min-width: 440px) {
+  .content {
+    grid-column: 1 / span 2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content {
+    order: 5;
+    grid-column: 1 / span 3;
+    padding: 100px;
+  }
+}
