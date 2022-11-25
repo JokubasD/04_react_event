@@ -1,11 +1,12 @@
 .header {
   background-color: #b2d6ff;
-  padding: 40px;
+  padding: 40px 0;
   text-align: center;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   .header {
-    padding: 60px;
+    padding: 60px 0;
   }
 }

@@ -1,16 +1,18 @@
 .signUp {
   background-color: #d6e9fe;
-  padding: 40px;
+  padding: 40px 0;
   text-align: center;
 }
 @media screen and (min-width: 440px) {
   .signUp {
     grid-column: 1 / span 1;
+    padding: 80px 0;
   }
 }
 @media screen and (min-width: 1024px) {
   .signUp {
     order: 4;
     grid-column: 1 / span 3;
+    padding: 40px 0;
   }
 }
